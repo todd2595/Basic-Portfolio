@@ -1,71 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Todd's Portfolio</title>
-      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
-  <body>
-      <header>
-      <nav class="nav-header">
-          <div class="nav-name"> <p>Todd Archey</p> </div>
-          <div class="nav-menu">
-          <ul class="bar">
-          <li><a href="index.html">About me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </ul>
-          </div>
-      </nav>
-  </header>
 
-      <div class="port.whole">
-      <div class="port.page">
-     <h1 class="port">Portfolio</h1>
-    <hr>
-     <ul class="interests">
-      <li>
-        <div id="jojo">
+<head>
+  <title>Todd's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="nav-header">
+      <a class="navbar-brand" href="#">Todd Archey</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</head>
+
+<body>
+  <div class="background">
+    <div class="port.page">
+      <h1 class="port">Portfolio</h1>
+      <hr>
+      <ul class="interests">
+        <li>
+          <div id="jojo">
             <img src="assets/images/jojo.jpg" height="100px" width="100px" alt="Joel Embiid">
             <div class="centered">Joel Embiid</div>
-        </div>
-      </li>
+          </div>
+        </li>
 
-      <li>
-        <div id="knight">
+        <li>
+          <div id="knight">
             <img src="assets/images/knight.jpg" height="100px" width="100px" alt="Chess">
             <div class="centered">Chess</div>
-        </div>
-      </li>
+          </div>
+        </li>
 
-      <li>
-        <div id="levante">
+        <li>
+          <div id="levante">
             <img src="assets/images/levante.png" height="100px" width="100px" alt="IPA beer">
             <div class="centered">IPA</div>
-        </div>
-       </li>
+          </div>
+        </li>
 
-      <li>
-        <div id="sixers">
+        <li>
+          <div id="sixers">
             <img src="assets/images/sixers logo.png" height="100px" width="100px" alt="Basketball">
             <div class="centered">Basketball</div>
-        </div>
-       </li>
-        
-     
-    </ul>
-</div>
-</div>
-    
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-<div class="footer">
-    <footer>&copy;</footer>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="https://github.com/todd2595">
+          <h2>My github repo</h2>
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.linkedin.com/in/todd-archey-a4529317a/">
+          <h2>My linkedin page</h2>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <footer>&copy;</footer>
     </div>
 
 
 
-    
-    
-    
-    </body>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
 
 </html>
