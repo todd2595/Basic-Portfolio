@@ -13,10 +13,9 @@
 }
 
 #placeHolder {
-    background-image: url("C:/Users/tarch/Desktop/code/Basic-Portfolio/assets/images/bg.png");
+    background-image: url("/assets/images/bg.png");
     min-height: 100%;
     height: 100%;
-    widows: 100%;
     position: static;
 }
 /* need to make name a box that is still inside the nav bar */
