@@ -1,0 +1,54 @@
+.nav-header {
+    background: #ffffff;
+    position: relative;
+    left:15px;
+    background-color: #ffffff;
+    border: 30px;
+    width: 100%;
+}
+#placeHolder {
+    background-image: url("../images/bg.png");
+    min-height: 95%;
+    width: 100%;
+    position: absolute;
+}
+.pageinfo {
+    padding:40px;
+    min-height: 75%;
+    min-width: 80%;
+    margin: 40px,40px,40px,40px;
+    position: relative;
+}
+.nav-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+}
+#textInfo {
+    background-color: #ffffff;
+    position: relative;
+    /* padding: 150px,15px,15px,15px; */
+    text-align: center;
+}
+.bio {
+    font-size: 17px;
+    font-weight: 450;
+    font-family: sans-serif;
+    margin: 15px;
+    padding-bottom: 25px;
+
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    bottom: 0px;
+}
+img {
+    float: left;
+    padding: 10px;
+}
+@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }

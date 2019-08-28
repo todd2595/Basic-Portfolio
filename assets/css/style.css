@@ -1,101 +1,22 @@
-.nav-name {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 30pt;
-    height: 75x;
-    width: 250px;
-    text-align: center;
-
-}
-
-#placeHolder {
-    background-image: url("assets/images/bg.png");
-    min-height: 100%;
-    height: 100%;
-    position: static;
-}
-/* need to make name a box that is still inside the nav bar */
-.bar {
-    list-style: none;
-    margin: 0;
-    padding: 18px;
-    overflow: hidden;
-}
-li {
-    float: right;
-}
-li a {
-    text-align: center;
-    padding: 12px;
-    color: #777777;
-}
-a {
-    text-decoration: none;    
-}
-
-.nav-header {
-    background: #ffffff;
-    position: relative;
-    left:15px;
-    background-color: #ffffff;
-    border: 30px;
-    width: 100%;
-}
-.nav-menu {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 12px;
-}
-
 .index-title {
     color: #4aaaa5;
     font-size: 36pt;
 }
-.bio {
-    font-family: Arial, Helvetica, sans-serif;
-    font: #777777;
-    margin: 10;
-
+.background {
+    background-image: url("../images/bg.png");
+    min-height: 95%;
+    width: 100%;
+    position: absolute;
 }
-img {
-    float: left;
-    padding: 10px;
+.coolboox{
+    text-align: center;
+    position: absolute;
 }
-/* 
-.intro {
-    background-image:src("assets\images\bg.png")
-    /* background-color: */
-/* } */ 
-
-.info {
-    /* background-color: white; */
-    margin: 0px,0px,10px,10px;
-    /* height: 100%;
-    width: 80%; */
-    position: relative;
+.centered{
+    /* text-align: center;
+    position: absolute; */
+    padding: 0px, 0px, 140px, 0px;
 }
-
-/* .port.whole {
-    background-image:url("https://goo.gl/images/cW8rF3");
-    background-color: red;
-} */
-
-.port-page {
-    margin: 100px;
-    padding: 15px;
-    background-color: white;
-
-}
-/*could not get the background to work on these pages */
-/* .contact.page {
-    background-image: url("https://goo.gl/images/cW8rF3");
-    background-color: red;
-
-} */
-
 .contact.box {
     margin: 200px;
     padding: 15px;
@@ -106,59 +27,20 @@ img {
     font-size: 36pt;
 
 }
-
 .interests { 
     width: 50%;
     text-align: center;
     margin-right: 1%;
     text-decoration: none;
 }
-.jojo {
-    position: relative;
-    text-align: center;
-}
-.centered {
-background-color: #4aaaa5;
-font: white;
-font-family: Arial, Helvetica, sans-serif;
-padding: 10px;
-position: absolute;
-text-align: center;
-}
-/* need to center images and make rows */
+
 .port {
     color: #4aaaa5;
     font-size: 36pt;
 }
-.port-page {
-    width: 600px;
-    height: 960px;
-    border: 10px;
-}
 .page1 {
     border: 5px #4aaaa5;
     position: fixed;
-}
-.footer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    background-color: grey;
-    bottom: 0;
-}
-#textInfo {
-    background-color: #ffffff;
-    min-height: 100%;
-    width: 60%;
-    position: relative;
-    padding-bottom: 20px;
-}
-#theBd {
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    text-align: center;
-
 }
 @media (min-width: 576px) { ... }
 @media (min-width: 768px) { ... }
